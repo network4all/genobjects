@@ -9,8 +9,8 @@ import (
     "unicode"
     "strings"
     "strconv"
-    "os"
-    "flag"
+    // "os"
+    // "flag"
 )
 
 const (
@@ -29,6 +29,7 @@ func usage() {
 
 func main() {
 
+/*
    flag.Usage = usage
    flag.Parse()
 
@@ -40,6 +41,7 @@ func main() {
       configuration.LoadsettingsPfn(&conf, dbconfigpath)
       mydb.InitConfigSettings(conf)
    } 
+*/
 
    currenttime := time.Now().Local()
 
